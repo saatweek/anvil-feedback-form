@@ -1,5 +1,42 @@
 components:
-- components: []
+- components:
+  - components:
+    - layout_properties: {grid_position: 'XBQIBA,HWGISZ'}
+      name: label_1
+      properties: {role: headline, text: Feedback Form}
+      type: Label
+    - layout_properties: {grid_position: 'MAJSSD,XYOESW'}
+      name: label_2
+      properties: {text: 'Name : '}
+      type: Label
+    - layout_properties: {grid_position: 'MAJSSD,ORGPJU'}
+      name: name_box
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'XCDYFV,ZUCIAM'}
+      name: label_3
+      properties: {text: 'Email :'}
+      type: Label
+    - layout_properties: {grid_position: 'XCDYFV,IGYJJV'}
+      name: email_box
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'WPYIYV,RDRFII'}
+      name: label_4
+      properties: {text: 'Feedback : '}
+      type: Label
+    - layout_properties: {grid_position: 'TVUQIE,IGEUXV'}
+      name: feedback_box
+      properties: {}
+      type: TextArea
+    layout_properties: {grid_position: 'IIYHXM,XDPAYS'}
+    name: outlined_card_1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'ZVAZTE,ZFRWBU'}
+    name: submit_button
+    properties: {enabled: true, role: tonal-button, text: SUBMIT}
+    type: Button
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
