@@ -13,6 +13,7 @@ import anvil.server
 #   print("Hello, " + name + "!")
 #   return 42
 #
+@anvil.server.callable
 def send_feedback(name, email, feedback):
   # Send yourself an email each time feedback is submitted
   anvil.email.send(to="noreply@anvil.works", # Change this to your email address!
