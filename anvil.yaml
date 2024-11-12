@@ -17,6 +17,11 @@ db_schema:
       type: datetime
     server: full
     title: Feedback
+  table_2:
+    client: none
+    columns: []
+    server: full
+    title: Table 2
 dependencies: []
 name: Feedback Form
 package_name: Feedback_Form
